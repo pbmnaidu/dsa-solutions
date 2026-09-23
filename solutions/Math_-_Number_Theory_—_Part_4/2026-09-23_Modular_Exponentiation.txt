@@ -1,0 +1,79 @@
+================================================================================
+PROBLEM:    Modular Exponentiation
+DATE:       2026-09-23
+TOPIC:      Math / Number Theory — Part 4
+SECTION:    Math / Number Theory
+DAY:        Day 7
+DIFFICULTY: Medium
+TRACKER:    DSA404 Milestone Tracker
+================================================================================
+
+--------------------------------------------------------------------------------
+PROBLEM / SUBMISSION LINK:
+--------------------------------------------------------------------------------
+https://www.geeksforgeeks.org/dsa/modular-exponentiation-power-in-modular-arithmetic/
+
+--------------------------------------------------------------------------------
+KEY PATTERNS & INSIGHTS:
+--------------------------------------------------------------------------------
+No key patterns provided.
+
+--------------------------------------------------------------------------------
+SOLUTION CODE:
+--------------------------------------------------------------------------------
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Main
+{
+    public static void main(String[] args) throws java.lang.Exception
+    {
+        Scanner sc = new Scanner(System.in);
+
+        int t = sc.nextInt();
+
+        while (t-- > 0) {
+            int n = sc.nextInt();
+            int k = sc.nextInt();
+
+            int[] arr = new int[n];
+
+            for (int i = 0; i < n; i++) {
+                arr[i] = sc.nextInt();
+            }
+
+            int ans = Integer.MAX_VALUE;
+
+            for (int i = 0; i < n; i++) {
+                for (int j = i + 1; j < n; j++) {
+
+                    int f = 0;
+
+                    for (int x = 0; x < n; x++) {
+                        if (Math.abs(i - x) <= k || Math.abs(j - x) <= k) {
+                            continue;
+                        }
+                        else {
+                            f = 1;
+                            break;
+                        }
+                    }
+
+                    if (f == 0) {
+                        ans = Math.min(ans, arr[i] + arr[j]);
+                    }
+                }
+            }
+
+            if (ans == Integer.MAX_VALUE)
+                System.out.println(-1);
+            else
+                System.out.println(ans);
+        }
+
+        sc.close();
+    }
+}
+
+================================================================================
