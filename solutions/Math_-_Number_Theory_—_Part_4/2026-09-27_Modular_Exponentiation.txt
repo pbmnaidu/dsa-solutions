@@ -1,0 +1,41 @@
+================================================================================
+PROBLEM:    Modular Exponentiation
+DATE:       2026-09-27
+TOPIC:      Math / Number Theory — Part 4
+SECTION:    Math / Number Theory
+DAY:        Day 6
+DIFFICULTY: Medium
+TRACKER:    DSA404 Milestone Tracker
+================================================================================
+
+--------------------------------------------------------------------------------
+PROBLEM / SUBMISSION LINK:
+--------------------------------------------------------------------------------
+https://www.geeksforgeeks.org/dsa/modular-exponentiation-power-in-modular-arithmetic/
+
+--------------------------------------------------------------------------------
+KEY PATTERNS & INSIGHTS:
+--------------------------------------------------------------------------------
+No key patterns provided.
+
+--------------------------------------------------------------------------------
+SOLUTION CODE:
+--------------------------------------------------------------------------------
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Main
+{
+    public static void main(String[] args) throws java.lang.Exception
+    {
+        Scanner sc = new Scanner(System.in);
+
+        int t = sc.nextInt();
+
+        System.out.println(t*t);
+        sc.close();
+    }
+}
+
+================================================================================
