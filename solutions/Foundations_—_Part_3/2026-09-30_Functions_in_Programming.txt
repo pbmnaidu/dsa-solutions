@@ -1,0 +1,40 @@
+================================================================================
+PROBLEM:    Functions in Programming
+DATE:       2026-09-30
+TOPIC:      Foundations — Part 3
+SECTION:    Foundations
+DAY:        Day 3
+DIFFICULTY: Easy
+TRACKER:    DSA404 Milestone Tracker
+================================================================================
+
+--------------------------------------------------------------------------------
+PROBLEM / SUBMISSION LINK:
+--------------------------------------------------------------------------------
+https://www.geeksforgeeks.org/cpp/functions-in-cpp/
+
+--------------------------------------------------------------------------------
+KEY PATTERNS & INSIGHTS:
+--------------------------------------------------------------------------------
+No key patterns provided.
+
+--------------------------------------------------------------------------------
+SOLUTION CODE:
+--------------------------------------------------------------------------------
+#include <iostream>
+#include <vector>
+#include <string>
+#include <algorithm>
+
+using namespace std;
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    
+    // Write your solution logic here
+    cout << "Hello from DSA404 CodeChef Compiler!" << endl;
+    return 0;
+}
+
+================================================================================
