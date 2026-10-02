@@ -1,0 +1,40 @@
+================================================================================
+PROBLEM:    Print all Divisors
+DATE:       2026-10-02
+TOPIC:      Step 1: Learn the basics — Part 5
+SECTION:    Step 1: Learn the basics
+DAY:        Day 5
+DIFFICULTY: Easy
+TRACKER:    DSA404 Milestone Tracker
+================================================================================
+
+--------------------------------------------------------------------------------
+PROBLEM / SUBMISSION LINK:
+--------------------------------------------------------------------------------
+https://www.geeksforgeeks.org/problems/all-divisors-of-a-number/1
+
+--------------------------------------------------------------------------------
+KEY PATTERNS & INSIGHTS:
+--------------------------------------------------------------------------------
+cs
+
+--------------------------------------------------------------------------------
+SOLUTION CODE:
+--------------------------------------------------------------------------------
+#include <iostream>
+#include <vector>
+#include <string> cs
+#include <algorithm>
+
+using namespace std;
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    
+    // Write your solution logic here
+    cout << "Hello from DSA404 CodeChef Compiler!" << endl;
+    return 0;
+}
+
+================================================================================
