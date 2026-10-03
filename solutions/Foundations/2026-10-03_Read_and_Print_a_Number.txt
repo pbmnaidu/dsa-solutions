@@ -1,0 +1,33 @@
+================================================================================
+PROBLEM:    Read and Print a Number
+DATE:       2026-10-03
+TOPIC:      Foundations
+SECTION:    Foundations
+DAY:        Day 1
+DIFFICULTY: Easy
+TRACKER:    DSA404 Milestone Tracker
+================================================================================
+
+--------------------------------------------------------------------------------
+PROBLEM / SUBMISSION LINK:
+--------------------------------------------------------------------------------
+https://www.geeksforgeeks.org/problems/taking-input/1
+
+--------------------------------------------------------------------------------
+KEY PATTERNS & INSIGHTS:
+--------------------------------------------------------------------------------
+No key patterns provided.
+
+--------------------------------------------------------------------------------
+SOLUTION CODE:
+--------------------------------------------------------------------------------
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Heqefwefcwllo from DSA404 CodeChef Compiler!");
+    }
+}
+
+================================================================================
